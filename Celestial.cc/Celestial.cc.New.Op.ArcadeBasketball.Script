@@ -1,0 +1,10 @@
+local success, result = pcall(function()
+    local s = game:HttpGet("https://raw.githubusercontent.com/Hoopz2191/Celestial.cc/refs/heads/main/Celestial.cc.ArcadeBasketBall.New.Op.V1.Script.txt")
+    return loadstring(s)()
+end)
+
+if success then
+    print("Script executed successfully")
+else
+    warn("Error executing script:", result)
+end
